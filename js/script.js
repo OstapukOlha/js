@@ -19,3 +19,5 @@ const logger = function() {
     console.log("hello");
 };
 logger();
+
+const calc = (a, b) => a + b;
