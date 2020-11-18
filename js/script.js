@@ -1,4 +1,4 @@
-
+"use strict";
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
@@ -19,3 +19,7 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+
+if (4 == 4) {
+    console.log('ok');
+}
