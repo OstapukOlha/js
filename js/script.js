@@ -9,3 +9,13 @@ function showFirstMessage(text) {
  
 showFirstMessage('Hello');
 console.log(num);
+
+function calc(a, b) {
+    return (a + b);
+}
+console.log(calc(4, 3));
+
+const logger = function() {
+    console.log("hello");
+};
+logger();
