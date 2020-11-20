@@ -18,6 +18,8 @@ function learnJS(lang, callback) {
     callback();
 }
 
-learnJS('JavaScript', function() {
+function done() {
     console.log('fgfxfh');
-});
+}
+
+learnJS('JavaScript', done);
