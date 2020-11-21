@@ -16,19 +16,19 @@ const options = {
 
 // console.log(options);
 
-let counter = 0;
+// let counter = 0;
 
-for (let key in options) {
-    if (typeof(options[key]) === 'object') {
-       for (let i in options[key]) {
-        console.log(`cdjqcndh ${i} dgdfgfh ${options[key][i]}`); 
-        counter++;
-       }
-    }
-    else {
-        console.log(`cdjqcndh ${key} dgdfgfh ${options[key]}`);
-        counter++;
-    }
+// for (let key in options) {
+//     if (typeof(options[key]) === 'object') {
+//        for (let i in options[key]) {
+//         console.log(`cdjqcndh ${i} dgdfgfh ${options[key][i]}`); 
+//         counter++;
+//        }
+//     }
+//     else {
+//         console.log(`cdjqcndh ${key} dgdfgfh ${options[key]}`);
+//         counter++;
+//     }
    
-}
-console.log(counter);
+// }
+// console.log(counter);
