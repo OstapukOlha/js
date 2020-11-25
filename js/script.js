@@ -76,7 +76,7 @@ const personalMovieDB = {
             //     personalMovieDB.genres[i - 1] = genre;
             // }
 
-            let genres = prompt(`Ваш любимый жанр под номером ${i}`);
+            let genres = prompt(`Ваш любимый жанр под номером ${i}`).toLowerCase();
             if (genres === '' || genres == null) {
                     console.log('ghjdfgjhxgfhxjdghj');
                     i--;
