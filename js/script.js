@@ -1,55 +1,31 @@
 "use strict";
 
-// To string
+// let x = 5; alert( x++ );
 
-// 1)
-console.log(typeof(String(null)));
-console.log(typeof(String(4)));
+// [ ] + false - null + true
+// console.log(typeof([] + false - null + true)); // NaN
 
-// 2)
-console.log(typeof(5 + ''));
+// let y = 1;
+// let x = y = 2; 
+// alert(x);
 
-const num = 5;
+// console.log([ ] + 1 + 2); // 12
 
-console.log("http://vk.com/catalog/" + num);
+// alert( "1"[0] ); // 1
 
-const fontSize = 26 + 'px';
+// console.log(2 && 1 && null && 0 && undefined);  null
 
-// To number
+// console.log(!!( 1 && 2 ) === (1&& 2));
 
-// 1)
+// alert( null || 2 && 3 || 4 ); 
 
-console.log(typeof(Number('4')));
+// const a = [1, 2, 3]; 
+// const b = [1, 2, 3];
 
-// 2)
+// console.log(a == b);
 
-console.log(typeof(+'5'));
+// alert( +"Infinity" );
 
-// 3)
+// console.log("Ёжик" > "яблоко"); //false
 
-console.log(typeof(parseInt("15px", 10)));
-
-let answ = +prompt("Hello", "");
-
-// To boolen
-
-// 0, '', null, undefined, NaN;
-
-let switcher = null;
-
-if (switcher) {
-    console.log('working...');
-}
-
-switcher = 1;
-
-if (switcher) {
-    console.log('working...');
-}
-
-// 2)
-
-console.log(typeof(Boolean('4')));
-
-// 3)
-console.log(typeof(!!"44444"));
+// console.log( 0 || "" || 2 || undefined || true || falsе );
